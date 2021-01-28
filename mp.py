@@ -26,6 +26,8 @@ playlist = []
 # // playlist - contains the full path + filename
 # // playlistbox - contains just the filename
 # // Fullpath + filename is required to play the music inside play_music load function
+
+
 def browse_file():
     global filename_path
     filename_path = filedialog.askopenfilename()
